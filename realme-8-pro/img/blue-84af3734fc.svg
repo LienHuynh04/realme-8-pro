@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="103px" height="69px" viewBox="0 0 103 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>椭圆形</title>
+    <g id="8pro_overview" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="8p_pc_05_color_europe_blue" transform="translate(-1266.000000, -1305.000000)" fill="#1D24FF" fill-rule="nonzero">
+            <g id="05_color" transform="translate(0.000000, 341.000000)">
+                <g id="color_name" transform="translate(1230.000000, 950.000000)">
+                    <g id="blue-chose" transform="translate(0.000000, 0.005055)">
+                        <path d="M87.4905083,23.7 C56.6910781,23.7 31.6905083,34.7362876 31.6905083,48.5 C31.6905083,62.2637124 56.6910781,73.3 87.4905083,73.3 C118.289938,73.3 143.290508,62.2637124 143.290508,48.5 C143.290508,34.7362876 118.289938,23.7 87.4905083,23.7 Z M87.4905083,24.3 C117.994685,24.3 142.690508,35.2017597 142.690508,48.5 C142.690508,61.7982403 117.994685,72.7 87.4905083,72.7 C56.9863312,72.7 32.2905083,61.7982403 32.2905083,48.5 C32.2905083,35.2017597 56.9863312,24.3 87.4905083,24.3 Z" id="椭圆形" transform="translate(87.490508, 48.500000) rotate(-28.000000) translate(-87.490508, -48.500000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

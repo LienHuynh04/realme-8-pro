@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="103px" height="69px" viewBox="0 0 103 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>椭圆形</title>
+    <g id="8pro_overview" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="8p_pc_05_color_europe_black" transform="translate(-1512.000000, -964.000000)" fill="#944AE2" fill-rule="nonzero">
+            <g id="color_name" transform="translate(1230.000000, 950.000000)">
+                <g id="black-chose" transform="translate(233.000000, 0.000000)">
+                    <path d="M100.5,23.7 C69.7005699,23.7 44.7,34.7362876 44.7,48.5 C44.7,62.2637124 69.7005699,73.3 100.5,73.3 C131.29943,73.3 156.3,62.2637124 156.3,48.5 C156.3,34.7362876 131.29943,23.7 100.5,23.7 Z M100.5,24.3 C131.004177,24.3 155.7,35.2017597 155.7,48.5 C155.7,61.7982403 131.004177,72.7 100.5,72.7 C69.9958229,72.7 45.3,61.7982403 45.3,48.5 C45.3,35.2017597 69.9958229,24.3 100.5,24.3 Z" id="椭圆形" transform="translate(100.500000, 48.500000) rotate(-28.000000) translate(-100.500000, -48.500000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
