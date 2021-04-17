@@ -782,8 +782,9 @@ button.swiper-pagination-bullet {
 }
 
 .sec .sec-bigTitle, .sec-fixed .sec-bigTitle {
-    font-size: 60px;
-    line-height: 120px
+    font-size: 50px;
+    line-height: 120px;
+    font-weight: 600;
 }
 
 @media screen and (max-width: 768px) {
@@ -2299,7 +2300,8 @@ button.swiper-pagination-bullet {
 
 @media screen and (min-width: 769px) {
     .sec-points .sec-content .item .item-box {
-        left: 41px
+        width: 100%;
+        left: 10px;
     }
 }
 
@@ -2364,13 +2366,13 @@ button.swiper-pagination-bullet {
 }
 
 .sec-points .sec-content .item-footage .item-box {
-    top: 139px
+    top: 50px
 }
 
 @media screen and (max-width: 768px) {
     .sec-points .sec-content .item-footage .item-box {
-        top: .49rem;
-        left: .26rem
+        top: 15px;
+        left: 5px;
     }
 }
 
@@ -2437,13 +2439,14 @@ button.swiper-pagination-bullet {
         -ms-flex-align: end;
         align-items: flex-end;
         top: .9rem;
-        right: .21rem;
+        right: .05rem;
+        width: 100%;
         text-align: right
     }
 }
 
 .sec-points .sec-content .item-display .item-box .display-desc {
-    margin-right: 33px;
+    /*margin-right: 33px;*/
     font-size: 16px;
     line-height: 33px
 }
@@ -2504,13 +2507,15 @@ button.swiper-pagination-bullet {
 }
 
 .sec-points .sec-content .item-charge .item-box {
-    top: 36px
+    top: 25px;
+    width: auto;
 }
 
 @media screen and (max-width: 768px) {
     .sec-points .sec-content .item-charge .item-box {
         top: .9rem;
         left: 50%;
+        width: 100%;
         -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
         transform: translateX(-50%)
@@ -2591,7 +2596,8 @@ button.swiper-pagination-bullet {
         left: 50%;
         -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
-        transform: translateX(-50%)
+        transform: translateX(-50%);
+        width: 100%
     }
 }
 
@@ -2656,7 +2662,8 @@ button.swiper-pagination-bullet {
         -ms-flex-align: start;
         align-items: flex-start;
         top: .27rem;
-        left: .26rem
+        left: .1rem;
+        width: 100%;
     }
 }
 
@@ -2703,7 +2710,7 @@ button.swiper-pagination-bullet {
 @media screen and (max-width: 768px) {
     .sec-points .sec-content .item-cpu .item-box {
         top: .18rem;
-        left: .59rem
+        left: .3rem
     }
 
     .sec-points .sec-content .item-cpu .item-box .box-title {
@@ -3675,7 +3682,7 @@ button.swiper-pagination-bullet {
 @media screen and (max-width: 768px) {
     .sec-camera .sec-content .sec-box .box-item .box-title {
         margin-bottom: .05rem;
-        font-size: .14rem;
+        font-size: .112rem;
         line-height: .19rem
     }
 }
@@ -3687,7 +3694,7 @@ button.swiper-pagination-bullet {
 
 @media screen and (max-width: 768px) {
     .sec-camera .sec-content .sec-box .box-item .box-desc {
-        font-size: .12rem;
+        font-size: .1rem;
         line-height: .17rem
     }
 }
@@ -3856,7 +3863,8 @@ button.swiper-pagination-bullet {
 
 .sec-clarity .sec-content .sec-box .border-color .box-item .box-desc {
     font-size: 18px;
-    line-height: 24px
+    line-height: 24px;
+    text-align: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -3881,7 +3889,8 @@ button.swiper-pagination-bullet {
     .sec-clarity .sec-content .sec-box .border-color:nth-child(1) .box-title {
         font-size: .32rem;
         line-height: .38rem;
-        margin-right: .12rem
+        margin-right: .12rem;
+        margin-left: 15px;
     }
 
     .sec-clarity .sec-content .sec-box .border-color:nth-child(3) {
@@ -4219,7 +4228,8 @@ button.swiper-pagination-bullet {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-top: 123px
+    margin-top: 165px;
+    text-align: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -4311,7 +4321,7 @@ button.swiper-pagination-bullet {
 
 .sec-nightscape .swiper-container {
     position: absolute;
-    top: 472px;
+    top: 515px;
     left: 50%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
@@ -4421,7 +4431,7 @@ button.swiper-pagination-bullet {
 
 .sec-drama .sec-content .content-box {
     position: absolute;
-    top: 388px;
+    top: 315px;
     left: 800px;
     width: 400px;
     text-align: left
@@ -4520,7 +4530,7 @@ button.swiper-pagination-bullet {
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
-    font-size: 140px;
+    font-size: 85px;
     line-height: 190px;
     font-weight: 600;
     z-index: 1
@@ -4529,8 +4539,9 @@ button.swiper-pagination-bullet {
 @media screen and (max-width: 768px) {
     .sec-drama-pic .sec-content .sec-bigTitle {
         top: 2.35rem;
-        font-size: .5rem;
-        line-height: .68rem
+        font-size: .18rem;
+        line-height: .68rem;
+        font-weight: 600;
     }
 }
 
@@ -4671,9 +4682,9 @@ button.swiper-pagination-bullet {
     }
 
     .sec-stars .hide-mobile .sec-content .sec-box .box-title {
-        margin-right: .45rem;
-        font-size: .24rem;
-        line-height: .33rem
+        margin-right: .2rem;
+        font-size: 0.18rem;
+        line-height: .33rem;
     }
 
     .sec-stars .hide-mobile .sec-content .sec-box .box-desc {
@@ -4684,7 +4695,7 @@ button.swiper-pagination-bullet {
     .sec-stars .hide-mobile .sec-content .sec-box .arrow {
         position: absolute;
         right: 0;
-        bottom: 0;
+        bottom: 5px;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex
@@ -4767,11 +4778,12 @@ button.swiper-pagination-bullet {
 
 .sec-portrait-first .sec-content .sec-bigTitle {
     position: absolute;
-    top: 922px;
-    left: 530px;
+    top: 955px;
+    left: 335px;
     font-size: 140px;
-    line-height: 190px;
-    text-align: left
+    line-height: 160px;
+    text-align: left;
+    width: 100%;
 }
 
 @media screen and (max-width: 768px) {
@@ -5062,7 +5074,7 @@ button.swiper-pagination-bullet {
     top: 657px;
     width: 484px;
     text-align: center;
-    font-size: 46px;
+    font-size: 36px;
     line-height: 68px;
     font-weight: 700;
     opacity: 0
@@ -5749,7 +5761,7 @@ button.swiper-pagination-bullet {
 }
 
 .sec-display .sec-content .sec-box .box-title {
-    font-size: 36px;
+    font-size: 33px;
     line-height: 49px
 }
 
@@ -5836,7 +5848,8 @@ button.swiper-pagination-bullet {
 }
 
 .sec-fingerprint .sec-content {
-    padding-top: 200px
+    padding-top: 200px;
+    width: 50%;
 }
 
 @media screen and (max-width: 768px) {
@@ -5992,7 +6005,8 @@ button.swiper-pagination-bullet {
 
 .sec-audio .sec-content .box-audio .content-box {
     top: 160px;
-    left: 134px
+    left: 80px;
+    width: 50%;
 }
 
 @media screen and (max-width: 768px) {
@@ -6114,7 +6128,7 @@ button.swiper-pagination-bullet {
 
 .sec-audio .sec-content .box-game .content-box {
     top: 49px;
-    left: 155px
+    left: 10px
 }
 
 @media screen and (max-width: 768px) {
@@ -6528,7 +6542,7 @@ button.swiper-pagination-bullet {
 
 .sec-remark .sec-content .remark-box {
     width: calc(100% - 100px);
-    height: 660px;
+    height: 700px;
     padding: 70px 0 0 100px;
     background: #10141a;
     border-radius: 20px
