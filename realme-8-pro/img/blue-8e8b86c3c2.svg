@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="83px" height="3px" viewBox="0 0 83 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>p_blue</title>
+    <defs>
+        <linearGradient x1="100%" y1="49.9340443%" x2="0%" y2="50.0659557%" id="linearGradient-1">
+            <stop stop-color="#44D8ED" offset="0%"></stop>
+            <stop stop-color="#44D8ED" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="8pro_overview" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="8pro_pc_overview1" transform="translate(-1531.000000, -25735.000000)" fill="url(#linearGradient-1)">
+            <g id="17_line" transform="translate(0.000000, 25008.000000)">
+                <g id="08_charge" transform="translate(620.000000, 53.000000)">
+                    <g id="W" transform="translate(222.000000, 655.000000)">
+                        <g id="33W" transform="translate(689.041818, 0.000000)">
+                            <rect id="p_blue" x="0" y="19" width="82.6" height="3" rx="1.5"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

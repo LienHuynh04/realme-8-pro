@@ -24,14 +24,6 @@
   <link rel="preload" href="./realme-8-pro/fonts/OpenSans-Semibold.ttf" as="font" type="font/ttf"
         crossorigin="">
 
-  <script type="text/javascript">
-    var ww = window.innerWidth, fontBase = 1920;
-    ww <= 768 && (fontBase = 360);
-    var fontSize = 100 * ww / fontBase,
-      defaultSize = window.getComputedStyle(document.documentElement).getPropertyValue("font-size"),
-      targetSize = fontSize / parseFloat(defaultSize) * 100 + "%";
-    document.documentElement.style.fontSize = targetSize
-  </script>
 
   <!--[if gte IE 9]>
   <script type="text/javascript">
@@ -106,6 +98,14 @@
   <link rel="stylesheet" type="text/css" href="./realme-8-pro/css/surfer_ffb0484.css"
         media="screen">
 
+  <script type="text/javascript">
+    var ww = window.innerWidth, fontBase = 1920;
+    ww <= 768 && (fontBase = 360);
+    var fontSize = 100 * ww / fontBase,
+            defaultSize = window.getComputedStyle(document.documentElement).getPropertyValue("font-size"),
+            targetSize = fontSize / parseFloat(defaultSize) * 100 + "%";
+    document.documentElement.style.fontSize = targetSize
+  </script>
 </head>
 
 <body>
@@ -126,14 +126,14 @@
                     media="(max-width: 768px)">
             <source srcset="./realme-8-pro/img/logo-c353152973.svg"
                     media="(min-width: 769px)">
-            <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+            <img srcset="./realme-8-pro/img/download.gif" alt="">
           </picture>
         </div>
         <div class="points-icon">
           <picture class="pic-lazyloaded">
             <source srcset="./realme-8-pro/img/logo-0bdedce220.png"
                     media="(min-width: 769px)">
-            <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+            <img srcset="./realme-8-pro/img/download.gif" alt="">
           </picture>
         </div>
         <h2 class="title">108MP. Nhiếp ảnh Chân thật.</h2>
@@ -154,39 +154,33 @@
           <div class="item-box">
             <div class="pic">
               <picture class="pic-lazyloaded">
-                <source srcset="./realme-8-pro/img/108-27e1ba9092.svg"
-                        media="(max-width: 768px)">
-                <source srcset="./realme-8-pro/img/108-2892fe6e6e.svg"
-                        media="(min-width: 769px)">
-                <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+                <source srcset="./realme-8-pro/img/108-27e1ba9092.svg" media="(max-width: 768px)">
+                <source srcset="./realme-8-pro/img/108-2892fe6e6e.svg" media="(min-width: 769px)">
+                <img srcset="./realme-8-pro/img/download.gif" alt="">
               </picture>
             </div>
             <p class="box-title opensans-semibold">Ultra Quad <em></em> Kamera</p>
-            <p class="box-desc">Quay video Thiên văn Time-lapse </p>
+            <p class="box-desc">Starry Time-lapse Video</p>
           </div>
           <picture class="pic-lazyloaded">
             <source srcset="./realme-8-pro/img/p1-new.jpg" media="(max-width: 768px)">
             <source srcset="./realme-8-pro/img/p1-new.jpg" media="(min-width: 769px)">
-            <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+            <img srcset="./realme-8-pro/img/download.gif" alt="">
           </picture>
         </div>
         <!-- display -->
         <div class="item item-display">
           <div class="item-box">
-            <!--            <p class="display-desc">Ultra-fast In-display <i></i> Fingerprint</p>-->
-            <p class="display-desc">Tốc độ quét vân tay trong màn hình cực nhạy</p>
+            <p class="display-desc">Ultra-fast In-display <i></i> Fingerprint</p>
             <div>
-              <p class="box-title gilroy-semibold">Màn hình Super AMOLED 6.4 inch </p>
-              <!--              <p class="box-title gilroy-semibold">6.4" (16.3cm)</p>-->
-              <!--              <p class="box-desc opensans-semibold">Super AMOLED Fullscreen</p>-->
+              <p class="box-title gilroy-semibold">6.4" (16.3cm)</p>
+              <p class="box-desc opensans-semibold">Super AMOLED Fullscreen</p>
             </div>
           </div>
           <picture class="pic-lazyloaded">
-            <source srcset="./realme-8-pro/img/display-16c1466acf.jpg"
-                    media="(max-width: 768px)">
-            <source srcset="./realme-8-pro/img/display-5f79a926b5.jpg"
-                    media="(min-width: 769px)">
-            <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+            <source srcset="./realme-8-pro/img/display-16c1466acf.jpg" media="(max-width: 768px)">
+            <source srcset="./realme-8-pro/img/display-5f79a926b5.jpg" media="(min-width: 769px)">
+            <img srcset="./realme-8-pro/img/download.gif" alt="">
           </picture>
         </div>
         <!-- charge -->
@@ -194,16 +188,14 @@
           <div class="item-box">
             <p class="box-desc">50% Battery in 17 Minutes*</p>
             <div>
-              <p class="gilroy-bold big-title">Sạc lên 50% pin trong vòng 17 phút* </p>
-              <!--              <p class="opensans-semibold box-desc">SuperDart <i></i> Charge</p>-->
+              <p class="gilroy-bold big-title">50W</p>
+              <p class="opensans-semibold box-desc">SuperDart <i></i> Charge</p>
             </div>
           </div>
           <picture class="pic-lazyloaded">
-            <source srcset="./realme-8-pro/img/charge-e403184eb8.jpg"
-                    media="(max-width: 768px)">
-            <source srcset="./realme-8-pro/img/charge-07363feb98.jpg"
-                    media="(min-width: 769px)">
-            <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+            <source srcset="./realme-8-pro/img/charge-e403184eb8.jpg" media="(max-width: 768px)">
+            <source srcset="./realme-8-pro/img/charge-07363feb98.jpg" media="(min-width: 769px)">
+            <img srcset="./realme-8-pro/img/download.gif" alt="">
           </picture>
         </div>
         <!-- battery -->
@@ -211,36 +203,30 @@
           <div class="item-box">
             <div class="pic">
               <picture class="pic-lazyloaded">
-                <source srcset="./realme-8-pro/img/4500-607f50adf6.png"
-                        media="(max-width: 768px)">
-                <source srcset="./realme-8-pro/img/4500-83305b1f52.png"
-                        media="(min-width: 769px)">
-                <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+                <source srcset="./realme-8-pro/img/4500-607f50adf6.png" media="(max-width: 768px)">
+                <source srcset="./realme-8-pro/img/4500-83305b1f52.png" media="(min-width: 769px)">
+                <img srcset="./realme-8-pro/img/download.gif" alt="">
               </picture>
             </div>
             <p class="box-title opensans-semibold">Baterai Besar</p>
-            <p class="box-desc">Chế độ siêu tiết kiệm năng lượng </p>
+            <p class="box-desc">Super Power <em></em> Saving Mode</p>
           </div>
           <picture class="pic-lazyloaded">
-            <source srcset="./realme-8-pro/img/battery-6c731f2722.jpg"
-                    media="(max-width: 768px)">
-            <source srcset="./realme-8-pro/img/battery-ee3d9000ce.jpg"
-                    media="(min-width: 769px)">
-            <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+            <source srcset="./realme-8-pro/img/battery-6c731f2722.jpg" media="(max-width: 768px)">
+            <source srcset="./realme-8-pro/img/battery-ee3d9000ce.jpg" media="(min-width: 769px)">
+            <img srcset="./realme-8-pro/img/download.gif" alt="">
           </picture>
         </div>
         <!-- design -->
         <div class="item item-design">
           <div class="item-box">
-            <p class="box-title opensans-semibold">Thiết kế ấn tượng</p>
-            <p class="box-desc">Siêu mỏng chỉ 8.1mm và 176g*</p>
+            <p class="box-title opensans-semibold">Infinite Bold Design</p>
+            <p class="box-desc">176g &amp; 8.1mm Super Slim*</p>
           </div>
           <picture class="pic-lazyloaded">
-            <source srcset="./realme-8-pro/img/design-152f5d807d.jpg"
-                    media="(max-width: 768px)">
-            <source srcset="./realme-8-pro/img/design-c79077edec.jpg"
-                    media="(min-width: 769px)">
-            <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+            <source srcset="./realme-8-pro/img/design-152f5d807d.jpg" media="(max-width: 768px)">
+            <source srcset="./realme-8-pro/img/design-c79077edec.jpg" media="(min-width: 769px)">
+            <img srcset="./realme-8-pro/img/download.gif" alt="">
           </picture>
         </div>
         <!-- cpu -->
@@ -249,17 +235,16 @@
             <div>
               <p class="big-title gilroy-bold">720G</p>
               <p class="box-desc">
-                Tiến trình chơi game 8mm
+                8nm Gaming <br>
+                Processor
               </p>
             </div>
-            <p class="box-title opensans-semibold">Chip xử lý Snapdragon</p>
+            <p class="box-title opensans-semibold">Snapdragon Processor</p>
           </div>
           <picture class="pic-lazyloaded">
-            <source srcset="./realme-8-pro/img/cpu-f41ff87545.jpg"
-                    media="(max-width: 768px)">
-            <source srcset="./realme-8-pro/img/cpu-9ba30639ce.jpg"
-                    media="(min-width: 769px)">
-            <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+            <source srcset="./realme-8-pro/img/cpu-f41ff87545.jpg" media="(max-width: 768px)">
+            <source srcset="./realme-8-pro/img/cpu-9ba30639ce.jpg" media="(min-width: 769px)">
+            <img srcset="./realme-8-pro/img/download.gif" alt="">
           </picture>
         </div>
       </div>
@@ -267,36 +252,29 @@
       <div class="hide-mobile animate-general animate-1000">
         <div class="points-icon">
           <picture class="pic-lazyloaded">
-            <source srcset="./realme-8-pro/img/logo.png"
-                    media="(max-width: 768px)">
-            <source srcset="./realme-8-pro/img/logo-0bdedce220.png"
-                    media="(min-width: 769px)">
-            <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+            <source srcset="./realme-8-pro/img/logo.png" media="(max-width: 768px)">
+            <source srcset="./realme-8-pro/img/logo-0bdedce220.png" media="(min-width: 769px)">
+            <img srcset="./realme-8-pro/img/download.gif" alt="">
           </picture>
         </div>
         <div class="points-arrow animate-running-delay">
           <picture class="pic-lazyloaded">
-            <source srcset="./realme-8-pro/img/arrow.svg"
-                    media="(max-width: 768px)">
-            <source srcset="./realme-8-pro/img/arrow-db35fdb07a.svg"
-                    media="(min-width: 769px)">
-            <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+            <source srcset="./realme-8-pro/img/arrow.svg" media="(max-width: 768px)">
+            <source srcset="./realme-8-pro/img/arrow-db35fdb07a.svg" media="(min-width: 769px)">
+            <img srcset="./realme-8-pro/img/download.gif" alt="">
           </picture>
         </div>
         <div class="points-arrow arrow-2 animate-running">
           <picture class="pic-lazyloaded">
-            <source srcset="./realme-8-pro/img/arrow.svg"
-                    media="(max-width: 768px)">
-            <source srcset="./realme-8-pro/img/arrow-db35fdb07a.svg"
-                    media="(min-width: 769px)">
-            <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+            <source srcset="./realme-8-pro/img/arrow.svg" media="(max-width: 768px)">
+            <source srcset="./realme-8-pro/img/arrow-db35fdb07a.svg" media="(min-width: 769px)">
+            <img srcset="./realme-8-pro/img/download.gif" alt="">
           </picture>
         </div>
       </div>
     </div>
   </div>
 </section>
-
 <section class="sec sec-videos sec-product">
   <div class="sec-video" data-video="./realme-8-pro/video/10s-af447dde7c.mp4">
     <video src="./realme-8-pro/video/10s-af447dde7c.mp4" autoplay="true" muted="muted"
@@ -323,7 +301,7 @@
             <picture class="pic-lazyloaded">
               <source srcset="./realme-8-pro/img/blue-84af3734fc.svg"
                       media="(min-width: 769px)">
-              <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+              <img srcset="./realme-8-pro/img/download.gif" alt="">
             </picture>
           </div>
         </a>
@@ -334,7 +312,7 @@
             <picture class="pic-lazyloaded">
               <source srcset="./realme-8-pro/img/purpo-60d53bcd32.svg"
                       media="(min-width: 769px)">
-              <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+              <img srcset="./realme-8-pro/img/download.gif" alt="">
             </picture>
           </div>
         </a>
@@ -354,19 +332,19 @@
                 <div class="arrow-pic animate-running-row-left-delay-2">
                   <picture class="pic-lazyloaded">
                     <source srcset="./realme-8-pro/img/arrow_blue_left-584639346d.svg" media="(max-width: 768px)">
-                    <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+                    <img srcset="./realme-8-pro/img/download.gidf" alt="">
                   </picture>
                 </div>
                 <div class="arrow-pic animate-running-row-left-delay">
                   <picture class="pic-lazyloaded">
                     <source srcset="./realme-8-pro/img/arrow_blue_left-584639346d.svg" media="(max-width: 768px)">
-                    <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+                    <img srcset="./realme-8-pro/img/download.gif" alt="">
                   </picture>
                 </div>
                 <div class="arrow-pic animate-running-row-left">
                   <picture class="pic-lazyloaded">
                     <source srcset="./realme-8-pro/img/arrow_blue_left-584639346d.svg" media="(max-width: 768px)">
-                    <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+                    <img srcset="./realme-8-pro/img/download.gif" alt="">
                   </picture>
                 </div>
               </div>
@@ -378,7 +356,7 @@
                                                 ./realme-8-pro/img/arrow_blue_right-a6f7ba05d4.svg
                                             " media="(max-width: 768px)">
                     <img srcset="
-                                                data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+                                                ./realme-8-pro/img/download.gif
                                             " alt="">
                   </picture>
                 </div>
@@ -388,7 +366,7 @@
                                                 ./realme-8-pro/img/arrow_blue_right-a6f7ba05d4.svg
                                             " media="(max-width: 768px)">
                     <img srcset="
-                                                data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+                                                ./realme-8-pro/img/download.gif
                                             " alt="">
                   </picture>
                 </div>
@@ -398,7 +376,7 @@
                                                 ./realme-8-pro/img/arrow_blue_right-a6f7ba05d4.svg
                                             " media="(max-width: 768px)">
                     <img srcset="
-                                                data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+                                                ./realme-8-pro/img/download.gif
                                             " alt="">
                   </picture>
                 </div>
@@ -408,7 +386,7 @@
               <picture class="pic-lazyloaded">
                 <source srcset="./realme-8-pro/img/purpo-60d53bcd32.svg"
                         media="(max-width: 768px)">
-                <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+                <img srcset="./realme-8-pro/img/download.gif" alt="">
               </picture>
             </div>
           </div>
@@ -427,7 +405,7 @@
                                                 ./realme-8-pro/img/arrow_white_right-aef5361410.svg
                                             " media="(max-width: 768px)">
                     <img srcset="
-                                                data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+                                                ./realme-8-pro/img/download.gif
                                             " alt="">
                   </picture>
                 </div>
@@ -437,7 +415,7 @@
                                                 ./realme-8-pro/img/arrow_white_right-aef5361410.svg
                                             " media="(max-width: 768px)">
                     <img srcset="
-                                                data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+                                                ./realme-8-pro/img/download.gif
                                             " alt="">
                   </picture>
                 </div>
@@ -447,7 +425,7 @@
                                                 ./realme-8-pro/img/arrow_white_right-aef5361410.svg
                                             " media="(max-width: 768px)">
                     <img srcset="
-                                                data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+                                                ./realme-8-pro/img/download.gif
                                             " alt="">
                   </picture>
                 </div>
@@ -457,7 +435,7 @@
               <picture class="pic-lazyloaded">
                 <source srcset="./realme-8-pro/img/blue-84af3734fc.svg"
                         media="(max-width: 768px)">
-                <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+                <img srcset="./realme-8-pro/img/download.gif" alt="">
               </picture>
             </div>
           </div>
@@ -475,7 +453,7 @@
                                                 ./realme-8-pro/img/arrow_blue_left-584639346d.svg
                                             " media="(max-width: 768px)">
                     <img srcset="
-                                                data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+                                                ./realme-8-pro/img/download.gif
                                             " alt="">
                   </picture>
                 </div>
@@ -485,7 +463,7 @@
                                                 ./realme-8-pro/img/arrow_blue_left-584639346d.svg
                                             " media="(max-width: 768px)">
                     <img srcset="
-                                                data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+                                                ./realme-8-pro/img/download.gif
                                             " alt="">
                   </picture>
                 </div>
@@ -495,7 +473,7 @@
                                                 ./realme-8-pro/img/arrow_blue_left-584639346d.svg
                                             " media="(max-width: 768px)">
                     <img srcset="
-                                                data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+                                                ./realme-8-pro/img/download.gif
                                             " alt="">
                   </picture>
                 </div>
@@ -508,7 +486,7 @@
                                                 ./realme-8-pro/img/arrow_blue_right-a6f7ba05d4.svg
                                             " media="(max-width: 768px)">
                     <img srcset="
-                                                data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+                                                ./realme-8-pro/img/download.gif
                                             " alt="">
                   </picture>
                 </div>
@@ -518,7 +496,7 @@
                                                 ./realme-8-pro/img/arrow_blue_right-a6f7ba05d4.svg
                                             " media="(max-width: 768px)">
                     <img srcset="
-                                                data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+                                                ./realme-8-pro/img/download.gif
                                             " alt="">
                   </picture>
                 </div>
@@ -528,7 +506,7 @@
                                                 ./realme-8-pro/img/arrow_blue_right-a6f7ba05d4.svg
                                             " media="(max-width: 768px)">
                     <img srcset="
-                                                data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+                                                ./realme-8-pro/img/download.gif
                                             " alt="">
                   </picture>
                 </div>
@@ -538,7 +516,7 @@
               <picture class="pic-lazyloaded">
                 <source srcset="./realme-8-pro/img/purpo-60d53bcd32.svg"
                         media="(max-width: 768px)">
-                <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+                <img srcset="./realme-8-pro/img/download.gif" alt="">
               </picture>
             </div>
           </div>
@@ -557,7 +535,7 @@
                                                 ./realme-8-pro/img/arrow_white_right-aef5361410.svg
                                             " media="(max-width: 768px)">
                     <img srcset="
-                                                data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+                                                ./realme-8-pro/img/download.gif
                                             " alt="">
                   </picture>
                 </div>
@@ -567,7 +545,7 @@
                                                 ./realme-8-pro/img/arrow_white_right-aef5361410.svg
                                             " media="(max-width: 768px)">
                     <img srcset="
-                                                data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+                                                ./realme-8-pro/img/download.gif
                                             " alt="">
                   </picture>
                 </div>
@@ -577,7 +555,7 @@
                                                 ./realme-8-pro/img/arrow_white_right-aef5361410.svg
                                             " media="(max-width: 768px)">
                     <img srcset="
-                                                data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+                                                ./realme-8-pro/img/download.gif
                                             " alt="">
                   </picture>
                 </div>
@@ -587,7 +565,7 @@
               <picture class="pic-lazyloaded">
                 <source srcset="./realme-8-pro/img/blue-84af3734fc.svg"
                         media="(max-width: 768px)">
-                <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+                <img srcset="./realme-8-pro/img/download.gif" alt="">
               </picture>
             </div>
           </div>
@@ -614,7 +592,7 @@
   </div>
 </section>
 
-<section class="sec sec-feel sec-visible sec-lazyload">
+<section class="sec sec-feel ">
   <div class="sec-sticky">
     <figure class="sec-bg bg-bright"></figure>
     <figure class="sec-bg bg-dark"></figure>
@@ -645,7 +623,7 @@
                                 media="(max-width: 768px)">
                         <source srcset="./realme-8-pro/img/logo-dc5a0f3c11.png"
                                 media="(min-width: 769px)">
-                        <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+                        <img srcset="./realme-8-pro/img/download.gif" alt="">
                     </span>
         </div>
       </div>
@@ -672,7 +650,7 @@
   </div>
 </section>
 
-<section class="sec sec-clarity sec-lazyload">
+<section class="sec sec-clarity">
   <figure class="sec-bg animate-general aniamte-200"></figure>
   <div class="sec-wrapper">
     <div class="sec-content animate-general aniamte-200">
@@ -707,7 +685,7 @@
   </div>
 </section>
 
-<section class="sec sec-footage sec-visible sec-lazyload">
+<section class="sec sec-footage">
   <div class="sec-wrapper">
     <div class="sec-content animate-general animate-200">
       <h2 class="sec-title opensans-semibold">ULTRA-CLEAR</h2>
@@ -722,7 +700,7 @@
     <picture class="pic-lazyloaded">
       <source srcset="./realme-8-pro/img/bg-new.jpg" media="(max-width: 768px)">
       <source srcset="./realme-8-pro/img/bg.jpg" media="(min-width: 769px)">
-      <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+      <img srcset="./realme-8-pro/img/download.gif" alt="">
     </picture>
   </div>
 </section>
@@ -745,7 +723,7 @@
                     media="(max-width: 768px)">
             <source srcset="./realme-8-pro/img/new-9af7c38201.jpg"
                     media="(min-width: 769px)">
-            <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+            <img srcset="./realme-8-pro/img/download.gif" alt="">
           </picture>
         </div>
       </div>
@@ -757,7 +735,7 @@
                     media="(max-width: 768px)">
             <source srcset="./realme-8-pro/img/old-new-d258e315d4.jpg"
                     media="(min-width: 769px)">
-            <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+            <img srcset="./realme-8-pro/img/download.gif" alt="">
           </picture>
         </div>
       </div>
@@ -803,7 +781,7 @@
                   media="(max-width: 768px)">
           <source srcset="./realme-8-pro/img/off-ba7581c6d4.jpg"
                   media="(min-width: 769px)">
-          <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+          <img srcset="./realme-8-pro/img/download.gif" alt="">
         </picture>
       </div>
       <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0"
@@ -813,7 +791,7 @@
                   media="(max-width: 768px)">
           <source srcset="./realme-8-pro/img/on-9082cf135e.jpg"
                   media="(min-width: 769px)">
-          <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+          <img srcset="./realme-8-pro/img/download.gif" alt="">
         </picture>
       </div>
       <div class="swiper-slide swiper-slide-next swiper-slide-duplicate-prev" data-swiper-slide-index="1"
@@ -823,7 +801,7 @@
                   media="(max-width: 768px)">
           <source srcset="./realme-8-pro/img/off-ba7581c6d4.jpg"
                   media="(min-width: 769px)">
-          <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+          <img srcset="./realme-8-pro/img/download.gif" alt="">
         </picture>
       </div>
       <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="0"
@@ -833,7 +811,7 @@
                   media="(max-width: 768px)">
           <source srcset="./realme-8-pro/img/on-9082cf135e.jpg"
                   media="(min-width: 769px)">
-          <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+          <img srcset="./realme-8-pro/img/download.gif" alt="">
         </picture>
       </div>
     </div>
@@ -881,7 +859,7 @@
                   media="(max-width: 768px)">
           <source srcset="./realme-8-pro/img/pic1-12ec360a24.jpg"
                   media="(min-width: 769px)">
-          <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+          <img srcset="./realme-8-pro/img/download.gif" alt="">
         </picture>
       </div>
       <div class="pic pic-left animate-general animate-200">
@@ -890,7 +868,7 @@
                   media="(max-width: 768px)">
           <source srcset="./realme-8-pro/img/pic2-6420e4171c.jpg"
                   media="(min-width: 769px)">
-          <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+          <img srcset="./realme-8-pro/img/download.gif" alt="">
         </picture>
       </div>
     </div>
@@ -923,7 +901,7 @@
           <picture class="pic-lazyloaded">
             <source srcset="./realme-8-pro/img/pic-01fc78c15a.jpg"
                     media="(min-width: 769px)">
-            <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+            <img srcset="./realme-8-pro/img/download.gif" alt="">
           </picture>
         </div>
       </div>
@@ -948,7 +926,7 @@
                   <source srcset="./realme-8-pro/img/arrow-ccfc38699e.svg"
                           media="(max-width: 768px)">
                   <img srcset="
-                                            data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+                                            ./realme-8-pro/img/download.gif
                                         " alt="">
                 </picture>
               </div>
@@ -957,7 +935,7 @@
                   <source srcset="./realme-8-pro/img/arrow-ccfc38699e.svg"
                           media="(max-width: 768px)">
                   <img srcset="
-                                            data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+                                            ./realme-8-pro/img/download.gif
                                         " alt="">
                 </picture>
               </div>
@@ -966,7 +944,7 @@
                   <source srcset="./realme-8-pro/img/arrow-ccfc38699e.svg"
                           media="(max-width: 768px)">
                   <img srcset="
-                                            data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+                                            ./realme-8-pro/img/download.gif
                                         " alt="">
                 </picture>
               </div>
@@ -985,7 +963,7 @@
       <picture class="pic-lazyloaded">
         <source srcset="./realme-8-pro/img/pic-2cd500eef3.jpg"
                 media="(max-width: 768px)">
-        <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+        <img srcset="./realme-8-pro/img/download.gif" alt="">
       </picture>
     </div>
   </div>
@@ -1014,7 +992,7 @@
               media="(max-width: 768px)">
       <source srcset="./realme-8-pro/img/neon-off-ec377ef8fe.jpg"
               media="(min-width: 769px)">
-      <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+      <img srcset="./realme-8-pro/img/download.gif" alt="">
     </picture>
   </div>
   <div class="pic animate-general animate-1000">
@@ -1023,7 +1001,7 @@
               media="(max-width: 768px)">
       <source srcset="./realme-8-pro/img/neon-on-b0329cc525.jpg"
               media="(min-width: 769px)">
-      <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+      <img srcset="./realme-8-pro/img/download.gif" alt="">
     </picture>
   </div>
 </section>
@@ -1047,7 +1025,7 @@
               media="(max-width: 768px)">
       <source srcset="./realme-8-pro/img/dynanic-off-ef9a57ea51.jpg"
               media="(min-width: 769px)">
-      <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+      <img srcset="./realme-8-pro/img/download.gif" alt="">
     </picture>
   </div>
   <div class="pic animate-general animate-1000">
@@ -1056,7 +1034,7 @@
               media="(max-width: 768px)">
       <source srcset="./realme-8-pro/img/dynanic-on-ca1a56f7b7.jpg"
               media="(min-width: 769px)">
-      <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+      <img srcset="./realme-8-pro/img/download.gif" alt="">
     </picture>
   </div>
 </section>
@@ -1076,7 +1054,7 @@
               media="(max-width: 768px)">
       <source srcset="./realme-8-pro/img/new1-30f5505afe.jpg"
               media="(min-width: 769px)">
-      <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+      <img srcset="./realme-8-pro/img/download.gif" alt="">
     </picture>
   </div>
 </section>
@@ -1087,7 +1065,7 @@
               media="(max-width: 768px)">
       <source srcset="./realme-8-pro/img/new2-1d9fd9ed81.jpg"
               media="(min-width: 769px)">
-      <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+      <img srcset="./realme-8-pro/img/download.gif" alt="">
     </picture>
   </div>
 </section>
@@ -1106,7 +1084,7 @@
                         media="(max-width: 768px)">
                 <source srcset="./realme-8-pro/img/beauty-bed8041ea4.jpg"
                         media="(min-width: 769px)">
-                <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+                <img srcset="./realme-8-pro/img/download.gif" alt="">
               </picture>
             </div>
             <p class="text opensans-bold">LÀM ĐẸP AI</p>
@@ -1119,7 +1097,7 @@
                         media="(max-width: 768px)">
                 <source srcset="./realme-8-pro/img/hdr-3e3275d4a1.jpg"
                         media="(min-width: 769px)">
-                <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+                <img srcset="./realme-8-pro/img/download.gif" alt="">
               </picture>
             </div>
             <p class="text opensans-bold">CHẾ ĐỘ HDR</p>
@@ -1131,7 +1109,7 @@
                         media="(max-width: 768px)">
                 <source srcset="./realme-8-pro/img/filter-76473f6ba9.jpg"
                         media="(min-width: 769px)">
-                <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+                <img srcset="./realme-8-pro/img/download.gif" alt="">
               </picture>
             </div>
             <p class="text opensans-bold">CHẾ ĐỘ CHÂN DUNG </p>
@@ -1143,7 +1121,7 @@
                         media="(max-width: 768px)">
                 <source srcset="./realme-8-pro/img/nightscape-f30b02ab23.jpg"
                         media="(min-width: 769px)">
-                <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+                <img srcset="./realme-8-pro/img/download.gif" alt="">
               </picture>
             </div>
             <p class="text opensans-bold">CHẾ ĐỘ SIÊU CHỤP ĐÊM</p>
@@ -1156,7 +1134,7 @@
                         media="(max-width: 768px)">
                 <source srcset="./realme-8-pro/img/beauty-bed8041ea4.jpg"
                         media="(min-width: 769px)">
-                <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+                <img srcset="./realme-8-pro/img/download.gif" alt="">
               </picture>
             </div>
             <p class="text opensans-bold">LÀM ĐẸP AI </p>
@@ -1168,7 +1146,7 @@
                         media="(max-width: 768px)">
                 <source srcset="./realme-8-pro/img/hdr-3e3275d4a1.jpg"
                         media="(min-width: 769px)">
-                <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+                <img srcset="./realme-8-pro/img/download.gif" alt="">
               </picture>
             </div>
             <p class="text opensans-bold"> CHẾ ĐỘ HDR</p>
@@ -1180,7 +1158,7 @@
                         media="(max-width: 768px)">
                 <source srcset="./realme-8-pro/img/filter-76473f6ba9.jpg"
                         media="(min-width: 769px)">
-                <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+                <img srcset="./realme-8-pro/img/download.gif" alt="">
               </picture>
             </div>
             <p class="text opensans-bold">CHẾ ĐỘ CHÂN DUNG</p>
@@ -1193,7 +1171,7 @@
                         media="(max-width: 768px)">
                 <source srcset="./realme-8-pro/img/nightscape-f30b02ab23.jpg"
                         media="(min-width: 769px)">
-                <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+                <img srcset="./realme-8-pro/img/download.gif" alt="">
               </picture>
             </div>
             <p class="text opensans-bold">CHẾ ĐỘ SIÊU CHỤP ĐÊM</p>
@@ -1207,7 +1185,7 @@
                         media="(max-width: 768px)">
                 <source srcset="./realme-8-pro/img/beauty-bed8041ea4.jpg"
                         media="(min-width: 769px)">
-                <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+                <img srcset="./realme-8-pro/img/download.gif" alt="">
               </picture>
             </div>
             <p class="text opensans-bold">LÀM ĐẸP AI</p>
@@ -1220,7 +1198,7 @@
                         media="(max-width: 768px)">
                 <source srcset="./realme-8-pro/img/hdr-3e3275d4a1.jpg"
                         media="(min-width: 769px)">
-                <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+                <img srcset="./realme-8-pro/img/download.gif" alt="">
               </picture>
             </div>
             <p class="text opensans-bold">CHẾ ĐỘ HDR</p>
@@ -1326,7 +1304,7 @@
                       media="(max-width: 768px)">
               <source srcset="./realme-8-pro/img/orange-80f7bc4e1b.svg"
                       media="(min-width: 769px)">
-              <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+              <img srcset="./realme-8-pro/img/download.gif" alt="">
             </picture>
           </div>
           <p>50W <i></i> <span>Sạc siêu nhanh Dart 50W </span></p>
@@ -1338,7 +1316,7 @@
                       media="(max-width: 768px)">
               <source srcset="./realme-8-pro/img/purpoe-90ad24dcd3.svg"
                       media="(min-width: 769px)">
-              <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+              <img srcset="./realme-8-pro/img/download.gif" alt="">
             </picture>
           </div>
           <p>40W <i></i> <span>Sạc nhanh 40W  </span></p>
@@ -1350,7 +1328,7 @@
                       media="(max-width: 768px)">
               <source srcset="./realme-8-pro/img/blue-8e8b86c3c2.svg"
                       media="(min-width: 769px)">
-              <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+              <img srcset="./realme-8-pro/img/download.gif" alt="">
             </picture>
           </div>
           <p>33W <i></i> <span>Sạc nhanh 33W</span></p>
@@ -1441,7 +1419,7 @@
                         media="(max-width: 768px)">
                 <source srcset="./realme-8-pro/img/icon-1e7994fcc2.svg"
                         media="(min-width: 769px)">
-                <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+                <img srcset="./realme-8-pro/img/download.gif" alt="">
               </picture>
             </div>
             <p class="box-desc">Âm thanh Dirac </p>
@@ -1452,7 +1430,7 @@
                   media="(max-width: 768px)">
           <source srcset="./realme-8-pro/img/audio-44f46a943b.jpg"
                   media="(min-width: 769px)">
-          <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+          <img srcset="./realme-8-pro/img/download.gif" alt="">
         </picture>
       </div>
       <div class="box box-battery">
@@ -1466,7 +1444,7 @@
                   media="(max-width: 768px)">
           <source srcset="./realme-8-pro/img/battery-7357dd0e65.jpg"
                   media="(min-width: 769px)">
-          <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+          <img srcset="./realme-8-pro/img/download.gif" alt="">
         </picture>
       </div>
       <div class="box box-game">
@@ -1479,7 +1457,7 @@
                   media="(max-width: 768px)">
           <source srcset="./realme-8-pro/img/game-0cba374633.jpg"
                   media="(min-width: 769px)">
-          <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+          <img srcset="./realme-8-pro/img/download.gif" alt="">
         </picture>
       </div>
     </div>
@@ -1496,7 +1474,7 @@
                   media="(max-width: 768px)">
           <source srcset="./realme-8-pro/img/ui2-c4f7b6c248.svg"
                   media="(min-width: 769px)">
-          <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+          <img srcset="./realme-8-pro/img/download.gif" alt="">
         </picture>
       </div>
       <div class="sec-box">
@@ -1506,7 +1484,7 @@
                     media="(max-width: 768px)">
             <source srcset="./realme-8-pro/img/logo-cdee15f9c6.png"
                     media="(min-width: 769px)">
-            <img srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="">
+            <img srcset="./realme-8-pro/img/download.gif" alt="">
           </picture>
         </div>
         <p class="box-title gilroy-regular">Trên nền tảng Android 11 </p>
