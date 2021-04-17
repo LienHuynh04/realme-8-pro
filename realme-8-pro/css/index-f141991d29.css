@@ -1485,7 +1485,7 @@ button.swiper-pagination-bullet {
         width: 100%;
         height: 7.6rem;
         overflow: hidden;
-        margin-top: .88rem
+        /*margin-top: .88rem*/
     }
 }
 
@@ -1737,8 +1737,9 @@ button.swiper-pagination-bullet {
 }
 
 .sec-specs-banner .specs-color a.blue.selected span:before {
-    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzdmcgd2lkdGg9IjQwcHgiIGhlaWdodD0iNDBweCIgdmlld0JveD0iMCAwIDQwIDQwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPg0KICAgIDx0aXRsZT5ibHVl5aSW5ZyIPC90aXRsZT4NCiAgICA8ZGVmcz4NCiAgICAgICAgPGxpbmVhckdyYWRpZW50IHgxPSI1MCUiIHkxPSIxMDAlIiB4Mj0iNTAlIiB5Mj0iMjQuOTAyMDU4NSUiIGlkPSJsaW5lYXJHcmFkaWVudC0xIj4NCiAgICAgICAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiMwRDlGRUUiIG9mZnNldD0iMCUiPjwvc3RvcD4NCiAgICAgICAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiNEM0VGRkYiIG9mZnNldD0iMTAwJSI+PC9zdG9wPg0KICAgICAgICA8L2xpbmVhckdyYWRpZW50Pg0KICAgIDwvZGVmcz4NCiAgICA8ZyBpZD0iOHByb19zcGVjIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4NCiAgICAgICAgPGcgaWQ9Ijhwcm9f6Imy5YC8IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjQ1LjAwMDAwMCwgLTI1LjAwMDAwMCkiIGZpbGw9InVybCgjbGluZWFyR3JhZGllbnQtMSkiIGZpbGwtcnVsZT0ibm9uemVybyI+DQogICAgICAgICAgICA8ZyBpZD0i57yW57uELTQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDUwLjAwMDAwMCwgMjUuMDAwMDAwKSI+DQogICAgICAgICAgICAgICAgPGcgaWQ9ImJsdWUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE5NS4wMDAwMDAsIDAuMDAwMDAwKSI+DQogICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0yMCwwIEMzMS4wNDU2OTUsMCA0MCw4Ljk1NDMwNSA0MCwyMCBDNDAsMzEuMDQ1Njk1IDMxLjA0NTY5NSw0MCAyMCw0MCBDOC45NTQzMDUsNDAgMCwzMS4wNDU2OTUgMCwyMCBDMCw4Ljk1NDMwNSA4Ljk1NDMwNSwwIDIwLDAgWiBNMjAsNCBDMTEuMTYzNDQ0LDQgNCwxMS4xNjM0NDQgNCwyMCBDNCwyOC44MzY1NTYgMTEuMTYzNDQ0LDM2IDIwLDM2IEMyOC44MzY1NTYsMzYgMzYsMjguODM2NTU2IDM2LDIwIEMzNiwxMS4xNjM0NDQgMjguODM2NTU2LDQgMjAsNCBaIiBpZD0iYmx1ZeWkluWciCI+PC9wYXRoPg0KICAgICAgICAgICAgICAgIDwvZz4NCiAgICAgICAgICAgIDwvZz4NCiAgICAgICAgPC9nPg0KICAgIDwvZz4NCjwvc3ZnPg==);
+    background-image: url(../img/specs/ciircle-blue.svg);
     background-repeat: no-repeat;
+
     background-size: 100% auto;
     background-position: top center
 }
@@ -1760,7 +1761,7 @@ button.swiper-pagination-bullet {
 }
 
 .sec-specs-banner .specs-color a.black.selected span:before {
-    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxzdmcgd2lkdGg9IjQwcHgiIGhlaWdodD0iNDBweCIgdmlld0JveD0iMCAwIDQwIDQwIiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPg0KICAgIDx0aXRsZT5ibGFja+WkluWciDwvdGl0bGU+DQogICAgPGRlZnM+DQogICAgICAgIDxsaW5lYXJHcmFkaWVudCB4MT0iNTAlIiB5MT0iMTAwJSIgeDI9IjUwJSIgeTI9IjAlIiBpZD0ibGluZWFyR3JhZGllbnQtMSI+DQogICAgICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjMTgxODE4IiBvZmZzZXQ9IjAlIj48L3N0b3A+DQogICAgICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjMkEzMjNCIiBvZmZzZXQ9IjAuNjI1MzcwMTA2JSI+PC9zdG9wPg0KICAgICAgICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzkzOUFBMyIgb2Zmc2V0PSIxMDAlIj48L3N0b3A+DQogICAgICAgIDwvbGluZWFyR3JhZGllbnQ+DQogICAgPC9kZWZzPg0KICAgIDxnIGlkPSI4cHJvX3NwZWMiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPg0KICAgICAgICA8ZyBpZD0iOHByb1/oibLlgLwiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC04OC4wMDAwMDAsIC0yNS4wMDAwMDApIiBmaWxsPSJ1cmwoI2xpbmVhckdyYWRpZW50LTEpIiBmaWxsLXJ1bGU9Im5vbnplcm8iPg0KICAgICAgICAgICAgPGcgaWQ9Iue8lue7hC00IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1MC4wMDAwMDAsIDI1LjAwMDAwMCkiPg0KICAgICAgICAgICAgICAgIDxnIGlkPSJibGFjayIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMzguMDAwMDAwLCAwLjAwMDAwMCkiPg0KICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMjAsMCBDMzEuMDQ1Njk1LDAgNDAsOC45NTQzMDUgNDAsMjAgQzQwLDMxLjA0NTY5NSAzMS4wNDU2OTUsNDAgMjAsNDAgQzguOTU0MzA1LDQwIDAsMzEuMDQ1Njk1IDAsMjAgQzAsOC45NTQzMDUgOC45NTQzMDUsMCAyMCwwIFogTTIwLDQgQzExLjE2MzQ0NCw0IDQsMTEuMTYzNDQ0IDQsMjAgQzQsMjguODM2NTU2IDExLjE2MzQ0NCwzNiAyMCwzNiBDMjguODM2NTU2LDM2IDM2LDI4LjgzNjU1NiAzNiwyMCBDMzYsMTEuMTYzNDQ0IDI4LjgzNjU1Niw0IDIwLDQgWiIgaWQ9ImJsYWNr5aSW5ZyIIj48L3BhdGg+DQogICAgICAgICAgICAgICAgPC9nPg0KICAgICAgICAgICAgPC9nPg0KICAgICAgICA8L2c+DQogICAgPC9nPg0KPC9zdmc+);
+    background-image: url(../img/specs/circle-black.svg);
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: top center
@@ -1882,7 +1883,8 @@ button.swiper-pagination-bullet {
     font-weight: 600;
     line-height: 40px;
     color: #000;
-    margin-top: 5px
+    margin-top: 5px;
+    margin-right: 15px;
 }
 
 @media screen and (max-width: 768px) {
@@ -6571,4 +6573,8 @@ button.swiper-pagination-bullet {
         font-size: .12rem;
         line-height: .22rem
     }
+}
+
+.desc.opensans-regular {
+    margin-right: 5px;
 }
